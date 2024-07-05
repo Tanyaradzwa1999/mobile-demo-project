@@ -23,127 +23,23 @@
 .button-container {
   @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
-.draw-button {
-  border-top: 13px solid transparent;
-}
-#moveLeft div {
-  animation: leftchat 5s infinite;
-}
-
-@keyframes leftchat {
-  from {
-    left: 0px;
-  }
-  to {
-    left: 100px;
-  }
-}
-#Text1 {
+.video-play-button {
   position: relative;
-  animation: mymove 4s;
-  animation-delay: 0.5s;
+  display: block;
+  z-index: 3;
+  top: 6px;
+  left: 4px;
+  width: 0;
+  height: 0;
+  border-left: 20px solid #185b95;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
 }
-#Text2 {
-  position: relative;
-  animation: mymove 3s;
-  animation-delay: 1s;
+.project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.8;
 }
-
-@keyframes mymove {
-  0% {
-    left: -120px;
-  }
-
-  50%,
-  50% {
-    left: 0px;
-  }
-  100% {
-  }
-}
-@keyframes picture {
-  0% {
-    right: -120px;
-  }
-
-  50%,
-  50% {
-    right: 0px;
-  }
-  100% {
-  }
-}
-@keyframes send {
-  0% {
-    right: -120px;
-  }
-
-  50%,
-  50% {
-    right: 0px;
-  }
-  100% {
-  }
-}
-@keyframes send {
-  0% {
-    right: -120px;
-  }
-
-  50%,
-  50% {
-    right: 0px;
-  }
-  100% {
-  }
-}
-#picture1 {
-  position: relative;
-  animation: picture 2s;
-  animation-delay: 4s;
-}
-#picture2 {
-  position: relative;
-  animation: picture 3s;
-  animation-delay: 5s;
-}
-#picture3 {
-  position: relative;
-  animation: picture 3s;
-  animation-delay: 6s;
-}
-
-#response1 {
-  position: relative;
-  animation: picture 3s;
-  animation-delay: 8s;
-}
-#response2 {
-  position: relative;
-  animation: picture 3s;
-  animation-delay: 9s;
-}
-#response3 {
-  position: relative;
-  animation: mymove 3s;
-  animation-delay: 11s;
-}
-#response4 {
-  position: relative;
-  animation: mymove 3s;
-  animation-delay: 11.5s;
-}
-#response5 {
-  position: relative;
-  animation: mymove 3s;
-  animation-delay: 12s;
-}
-#send {
-  position: relative;
-  animation: mymove 2s;
-  animation-delay: 14s;
-}
-
 @media (max-width: 576px) {
   body {
     background-image: url("../images/bg-mobile.png");

@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <!-- nav bar section -->
+    <nav class="mt-8">
+      <div class="flex justify-center space-x-10 font-light">
+        <a href="#about">About</a><a href="">Experience</a
+        ><a href="">Services</a><a href="">Testimonials</a
+        ><a href="">Contact</a>
+      </div>
+    </nav>
+    <div class="border-b mt-8"></div>
+    <!-- hero section -->
+    <section
+      class="flex flex-col items-center justify-center md:flex-row section-container h-screen"
+    >
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="flex flex-col space-y-6">
+          <p class="text-slate-500">Greetings, my name is Chikosha Tan</p>
+          <h3 class="max-w-2xl text-5xl font-Baskervville">
+            frontend web developer, embedded systems developer, qualified
+            electrical engineer
+          </h3>
+          <a href="#about"
+            ><button
+              class="bg-white, border border-black text-slate-500 uppercase px-8 py-4 hover:bg-black hover:text-white transition delay-200"
+            >
+              find out more
+            </button></a
+          >
+        </div>
+        <img src="images/portfolio.jpg" class="w-1/3 h-1/2 rounded sm" alt="" />
+      </div>
+    </section>
+    <div
+      class="bg-stone-100 absolute bottom-0 w-full py-8 md:flex justify-center items-center text-2xl space-x-10 text-slate-400 hidden"
+    >
+      <i class="fa-brands fa-apple"></i>
+      <i class="fa-brands fa-docker"></i>
+      <i class="fa-brands fa-squarespace"></i>
+      <i class="fa-brands fa-yelp"></i>
+      <i class="fa-brands fa-airbnb"></i>
+      <i class="fa-brands fa-supple"></i>
+      <i class="fa-brands fa-strava"></i>
+      <i class="fa-brands fa-swift"></i>
+      <i class="fa-brands fa-java"></i>
+      <i class="fa-brands fa-cloudflare"></i>
+      <i class="fa-brands fa-wordpress"></i>
+      <i class="fa-brands fa-linux"></i>
+      <i class="fa-brands fa-superpowers"></i>
+      <i class="fa-brands fa-yammer"></i>
+    </div>
+    <!-- about section -->
+    <section
+      class="section-container flex flex-col items-center space-y-4 mb-10"
+      id="about"
+    >
+      <h3 class="font-Baskervville">About</h3>
+      <p class="text-justify max-w-2xl leading-8 text-lg">
+        I'm a passionate frontend developer with a strong foundation in
+        electrical engineering and embedded systems. My journey began with a
+        Bachelor's degree in Electrical Engineering, where I honed my skills in
+        circuit design, microcontrollers, and embedded software. This technical
+        background gives me a unique perspective when developing user
+        interfaces, allowing me to bridge the gap between hardware and software
+        seamlessly.
+      </p>
+
+      <p class="text-justify max-w-2xl leading-8 text-lg">
+        Over the years, I've transitioned into the world of web development,
+        finding a love for creating intuitive and visually appealing interfaces.
+        I have a keen eye for design and a knack for solving complex problems,
+        which drives my approach to building responsive and user-friendly web
+        applications. With experience in HTML, CSS, JavaScript, and popular
+        frameworks like React, I strive to deliver engaging digital experiences
+        that resonate with users.
+      </p>
+
+      <p class="text-justify max-w-2xl leading-8 text-lg">
+        I'm always eager to learn and stay updated with the latest industry
+        trends, continuously improving my craft. Whether it's collaborating with
+        cross-functional teams or diving deep into new technologies, I thrive on
+        challenges and am committed to delivering high-quality solutions.
+      </p>
+    </section>
+    <section
+      class="section-container flex flex-col items-center space-y-4 mb-10"
+      id="about"
+    >
+      <h3 class="font-Baskervville">What is web development?</h3>
+      <p class="text-justify max-w-2xl leading-8 text-lg">
+        Web development is the process of creating and maintaining websites and
+        web applications that are accessible through the internet. It combines
+        coding, design, and problem-solving skills to build sites that are not
+        only functional but also user-friendly and visually appealing. There are
+        two main parts to web development: front-end development, which focuses
+        on what users see and interact with, and back-end development, which
+        handles the behind-the-scenes operations like servers, databases, and
+        application logic. This field is always evolving with new technologies
+        and trends, allowing developers to come up with innovative solutions
+        that meet the needs of both users and businesses.
+      </p>
+    </section>
+    <!-- profile tab -->
+    <div class="bg-stone-100">
+      <section id="tabs">
+        <!-- Tabs/Panels Container -->
+        <div class="container relative mx-auto my-6 mb-32 mt-12 px-6 py-12">
+          <div class="bg-tabs"></div>
+          <!-- Tabs Flex Container -->
+          <div
+            class="flex flex-col items-center justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+          >
+            <!-- Tab 1 -->
+            <div
+              class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+              data-target="panel-1 ease-in duration-300"
+            >
+              <div class="py-5 border-b-4 border-softRed" data-target="panel-1">
+                Profile
+              </div>
+            </div>
+
+            <!-- Tab 2 -->
+            <div
+              class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+              data-target="panel-2"
+            >
+              <div class="py-5" data-target="panel-2">Skills</div>
+            </div>
+
+            <!-- Tab 3 -->
+            <div
+              class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-softRed md:w-1/3 tab"
+              data-target="panel-3"
+            >
+              <div class="py-5" data-target="panel-3">Experience</div>
+            </div>
+          </div>
+
+          <!-- Tab Panels -->
+          <div id="panels" class="section-container mx-auto text-lg">
+            <!-- Panel 1 profile -->
+            <div
+              class="flex items-center justify-center space-x-14 panel panel-1"
+            >
+              <div class="flex flex-col py-5 space-y-4">
+                <!-- Panel Image -->
+
+                <div class="flex space-x-20">
+                  <div class="flex space-x-2 items-center">
+                    <i class="fa-solid fa-user text-ExperiencesBlue"></i>
+                    <p>Full Name:</p>
+                  </div>
+                </div>
+                <div class="flex space-x-5">
+                  <div class="flex space-x-2 Justify-start items-center">
+                    <i class="fa-solid fa-user-tie text-ExperiencesBlue"></i>
+                    <p>Professional Title:</p>
+                  </div>
+                </div>
+                <div class="flex space-x-24">
+                  <div class="flex space-x-2 Justify-start items-center">
+                    <i
+                      class="fa-solid fa-location-dot text-ExperiencesBlue"
+                    ></i>
+                    <p>Location:</p>
+                  </div>
+                </div>
+                <div class="flex space-x-28 justify-start items-center">
+                  <div class="flex space-x-2 Justify-start items-center">
+                    <i class="fa-solid fa-envelope text-ExperiencesBlue"></i>
+                    <p>Email:</p>
+                  </div>
+                </div>
+
+                <!-- Panel Content -->
+              </div>
+              <div class="flex flex-col py-5 space-y-4">
+                <p>Chikosha Tanyaradzwa</p>
+                <p>Frontend Web Developer</p>
+                <p>Port Elizabeth, South Africa</p>
+                <p>chokixatanya1919@gmail.com</p>
+              </div>
+            </div>
+
+            <!-- Panel 2 -->
+            <div
+              class="flex hidden flex-col md:space-x-7 panel panel-2 items-start max-w-lg md:max-w-2xl space-y-4 mx-auto"
+            >
+              <!-- Panel Image -->
+              <!-- main flex for alle xperience -->
+              <div class="flex flex-col w-full my-10 space-y-10">
+                <div class="flex flex-col md:flex-row space-x-2">
+                  <div
+                    class="w-32 h-16 bg-ExperiencesBlue text-white text-md flex items-center justify-center mb-0 ml-4 flex-none"
+                  >
+                    Front-end
+                  </div>
+                  <div
+                    class="border block md:hidden border-b-ExperiencesBlue w-full -mt-[3px] ml-2"
+                  ></div>
+                  <div
+                    class="relative hidden md:block border border-ExperiencesBlue mt-[3px] -left-[10px]"
+                  ></div>
+                  <!-- flex col for java heading -->
+                  <div class="flex flex-col max-w-lg">
+                    <h5 class="my-4">JavaScript</h5>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                    >
+                      <span class="text-gray-700 font-normal"
+                        >Single page applications (SPA)</span
+                      >
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >React</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Next.js</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >TypeScript</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Webpack</a
+                        >
+                      </div>
+
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Apollo</a
+                        >
+                      </div>
+                    </div>
+                    <!-- css flex box -->
+                    <h5 class="mt-10 mb-4">HTML & CSS</h5>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                    >
+                      <span class="text-gray-700 font-normal"
+                        >CSS frameworks (responsive websites)</span
+                      >
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Tailwind</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Bootstrap</a
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start mt-2"
+                    >
+                      <span class="text-gray-700 font-normal"
+                        >CSS processors (reduced code bloat)</span
+                      >
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Sass</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Less</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Myth</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- flex-box backend heading -->
+                <div class="flex flex-col md:flex-row space-x-2">
+                  <div
+                    class="w-32 h-16 bg-ExperiencesBlue text-white text-md flex items-center justify-center mb-0 ml-4 flex-none"
+                  >
+                    Back-end
+                  </div>
+                  <div
+                    class="border block md:hidden border-b-ExperiencesBlue w-full -mt-[3px] ml-2"
+                  ></div>
+                  <div
+                    class="relative hidden md:block border border-ExperiencesBlue mt-[3px] -left-[10px]"
+                  ></div>
+                  <!-- flex col for java heading -->
+                  <div class="flex flex-col max-w-md justify-center">
+                    <h5 class="my-4">Frameworks & DBs</h5>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                    >
+                      <div class="flex items-center space-x-2">
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Node.js</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Express.js</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Django</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >MySQL</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Redis</a
+                        >
+                      </div>
+
+                      <div class="flex items-center space-x-2">
+                        <div class="w-2 h-2 bg-gray-700 rounded-full"></div>
+                        <span class="text-gray-700 font-normal"
+                          >third-party APIs (Facebook, Twitter, YouTube, GitHub,
+                          etc.)</span
+                        >
+                      </div>
+                    </div>
+                    <!-- css flex box -->
+                  </div>
+                </div>
+                <!-- flex item for other skills -->
+                <div class="flex flex-col md:flex-row space-x-2">
+                  <div
+                    class="w-32 h-16 bg-ExperiencesBlue text-white text-md flex items-center justify-center mb-0 ml-4 flex-none"
+                  >
+                    Others
+                  </div>
+                  <div
+                    class="border block md:hidden border-b-ExperiencesBlue w-full -mt-[3px] ml-2"
+                  ></div>
+                  <div
+                    class="relative hidden md:block border border-ExperiencesBlue mt-[3px] -left-[10px]"
+                  ></div>
+                  <!-- flex col for java heading -->
+                  <div class="flex flex-col max-w-md justify-center">
+                    <div
+                      class="text-sm font-normal text-gray-700 flex space-x-4 flex-wrap justify-start"
+                    >
+                      <div class="flex items-center space-x-2">
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Microsoft Azure</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Search engine optimization(SE0)</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Internet of things</a
+                        >
+                      </div>
+                    </div>
+                    <!-- css flex box -->
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel Content -->
+            </div>
+
+            <!-- Panel 3 -->
+            <div
+              class="flex hidden flex-col md:space-x-7 panel panel-3 items-start max-w-lg md:max-w-2xl space-y-4 mx-auto"
+            >
+              <!-- Panel Image -->
+              <!-- main flex for all xperience -->
+              <div class="flex flex-col w-full my-10 space-y-10">
+                <div class="flex">
+                  <div
+                    class="w-24 h-10 bg-ExperiencesBlue text-white text-md flex items-center justify-center mb-0 ml-4 flex-none"
+                  >
+                    2024
+                  </div>
+                  <div class="flex space-x-4">
+                    <div
+                      class="video-play-button w-32 h-32 absolute -ml-1 -mt-[6.5px]"
+                    ></div>
+                    <div class="w-4 h-4 bg-softRed rounded-full mt-3"></div>
+                    <div
+                      class="relative hidden md:block border border-ExperiencesBlue mt-[40px] -left-[24px]"
+                    ></div>
+                  </div>
+
+                  <div
+                    class="border block md:hidden border-b-ExperiencesBlue w-full -mt-[3px]"
+                  ></div>
+
+                  <!-- flex col for java heading -->
+                  <div class="text-sm ml-8 flex flex-col max-w-lg mt-1">
+                    <h5 class="">Frontend Developer</h5>
+                    <div class="flex justify-between">
+                      <div class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-building"></i>
+                        <p class="">Nelson Mandela University</p>
+                      </div>
+                      <div class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="">Nelson Mandela University</p>
+                      </div>
+                    </div>
+
+                    <div
+                      class="font-semibold text-gray-700 flex space-x-4 flex-wrap justify-start"
+                    >
+                      <p class="leading-8 text-justify mt-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        A dicta consectetur repellat. Rerum fugiat quidem
+                        impedit distinctio maxime iusto necessitatibus minima,
+                        maiores temporibus blanditiis neque sint assumenda
+                        tempore, nulla perspiciatis voluptate accusamus. Placeat
+                        nulla vel aliquid officia vitae quidem culpa quibusdam
+                        reprehenderit in sunt, repellendus amet dolorem,
+                        consequuntur doloribus sed esse, perferendis fuga
+                        numquam illum voluptatum voluptatem odit? Sed tenetur
+                        commodi dolore veritatis id iste perferendis ipsum
+                        repellendus fugiat. Quo.
+                      </p>
+                    </div>
+                    <!-- css flex box -->
+                    <h5 class="mt-10 mb-4">Development Tools</h5>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                    >
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Tailwind</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Bootstrap</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Sass</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Less</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Myth</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- flex-box backend heading -->
+                <div class="flex">
+                  <div
+                    class="w-24 h-10 bg-ExperiencesBlue text-white text-md flex items-center justify-center mb-0 ml-4 flex-none"
+                  >
+                    2024
+                  </div>
+                  <div class="flex space-x-4">
+                    <div
+                      class="video-play-button w-32 h-32 absolute -ml-1 -mt-[6.5px]"
+                    ></div>
+                    <div class="w-4 h-4 bg-softRed rounded-full mt-3"></div>
+                    <div
+                      class="relative hidden md:block border border-ExperiencesBlue mt-[40px] -left-[24px]"
+                    ></div>
+                  </div>
+
+                  <div
+                    class="border block md:hidden border-b-ExperiencesBlue w-full -mt-[3px]"
+                  ></div>
+
+                  <!-- flex col for java heading -->
+                  <div class="text-sm ml-8 flex flex-col max-w-lg mt-1">
+                    <h5 class="">Frontend Developer</h5>
+                    <div class="flex justify-between">
+                      <div class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-building"></i>
+                        <p class="">Nelson Mandela University</p>
+                      </div>
+                      <div class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="">Nelson Mandela University</p>
+                      </div>
+                    </div>
+
+                    <div
+                      class="font-semibold text-gray-700 flex space-x-4 flex-wrap justify-start"
+                    >
+                      <p class="leading-8 text-justify mt-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. In non quam cupiditate asperiores dolores officia
+                        eos vero quibusdam amet. Tempora labore voluptates dolor
+                        molestias maxime ipsam nisi blanditiis, pariatur id
+                        aspernatur ab repellendus maiores facere asperiores?
+                        Totam, ipsum eos distinctio autem omnis tenetur sapiente
+                        fugiat cum velit, ab eum modi.
+                      </p>
+                    </div>
+                    <!-- css flex box -->
+                    <h5 class="mt-10 mb-4">Development Tools</h5>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                    >
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Tailwind</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Bootstrap</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Sass</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Less</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Myth</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- flex item for other skills -->
+                <div class="flex">
+                  <div
+                    class="w-24 h-10 bg-ExperiencesBlue text-white text-md flex items-center justify-center mb-0 ml-4 flex-none"
+                  >
+                    2024
+                  </div>
+                  <div class="flex space-x-4">
+                    <div
+                      class="video-play-button w-32 h-32 absolute -ml-1 -mt-[6.5px]"
+                    ></div>
+                    <div class="w-4 h-4 bg-softRed rounded-full mt-3"></div>
+                    <div
+                      class="relative hidden md:block border border-ExperiencesBlue mt-[40px] -left-[24px]"
+                    ></div>
+                  </div>
+
+                  <div
+                    class="border block md:hidden border-b-ExperiencesBlue w-full -mt-[3px]"
+                  ></div>
+
+                  <!-- flex col for java heading -->
+                  <div class="text-sm ml-8 flex flex-col max-w-lg mt-1">
+                    <h5 class="">Frontend Developer</h5>
+                    <div class="flex justify-between">
+                      <div class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-building"></i>
+                        <p class="">Nelson Mandela University</p>
+                      </div>
+                      <div class="flex space-x-2 items-center">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="">Nelson Mandela University</p>
+                      </div>
+                    </div>
+
+                    <div
+                      class="font-semibold text-gray-700 flex space-x-4 flex-wrap justify-start"
+                    >
+                      <p class="leading-8 text-justify mt-4">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Labore, illo rerum, veniam adipisci itaque
+                        sapiente atque distinctio culpa expedita placeat non sed
+                        dolores fuga sunt, aliquid nesciunt. Ad eum totam
+                        perferendis at quidem tempora commodi tempore. Corporis
+                        laudantium quibusdam non voluptate nihil blanditiis
+                        libero nemo! Qui maxime id maiores officiis.
+                      </p>
+                    </div>
+                    <!-- css flex box -->
+                    <h5 class="mt-10 mb-4">Development Tools</h5>
+                    <div
+                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                    >
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Tailwind</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Bootstrap</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Sass</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Less</a
+                        >
+                      </div>
+                      <div class="flex items-center space-x-2">
+                        <div
+                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                        ></div>
+                        <a
+                          href=""
+                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                          >Myth</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Panel Content -->
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- works heading -->
+    <section
+      class="flex flex-col items-center section-container mb-10 mx-auto"
+      id="about"
+    >
+      <h3>Checkout My Work</h3>
+      <p>Here is a sample of my projects</p>
+    </section>
+    <!-- works section -->
+    <section
+      class="flex justify-center section-container mb-10 mx-auto"
+      id="about"
+    >
+      <h3>Work</h3>
+    </section>
+    <!-- section for the works -->
+    <!-- <div class="attribution">
+      
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+  <script src="sources/bootstrap.bundle.min.js"></script>
+  <script src="sources/replaceme.min.js"></script>
+  <script src="sources/script.js"></script>
+</html>

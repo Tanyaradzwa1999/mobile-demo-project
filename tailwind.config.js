@@ -36,16 +36,17 @@ module.exports = {
 
         LightMagenta: "hsl(293, 100%, 63%)",
         LightViolet: "hsl(264, 100%, 61%)",
-
+        softRed: "hsl(0, 94%, 66%)",
         //### Secondary
-
+        ExperiencesBlue: "hsl(208,79,34)",
         White: "hsl(0, 0%, 100%)",
         LightGrayishViolet: "hsl(270, 20%, 96%)", // (app background)
         VeryDarkDesaturatedViolet: "hsl(271, 36%, 24%)", // (submit button background)
         VeryLightMagenta: "hsl(289, 100%, 72%)", //(radio button outline)
       },
       fontFamily: {
-        sans: ["Rubik", "sans-serif"],
+        sans: ["Libre Franklin"],
+        Baskervville: ["Baskervville SC"],
       },
     },
   },
