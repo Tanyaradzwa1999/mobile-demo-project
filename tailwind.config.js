@@ -29,6 +29,7 @@ module.exports = {
         GrayishBlue: "hsl(206, 6%, 79%)", //(placeholder text)
         VeryDarkDesaturatedViolet: "hsl(271, 36%, 24%)", //(main heading)
         DarkGrayishViolet: "hsl(270, 7%, 64%)", //(paragraph)
+        veryDarkBlue: "hsl(229, 31%, 21%)",
 
         //#### Gradients
 
@@ -47,6 +48,7 @@ module.exports = {
       fontFamily: {
         sans: ["Libre Franklin"],
         Baskervville: ["Baskervville SC"],
+        Margarine: ["Margarine"],
       },
     },
   },

@@ -4,11 +4,11 @@
 
 @layer base {
   h3 {
-    @apply mb-8 text-4xl font-bold;
+    @apply mb-8 text-4xl font-bold font-Baskervville;
   }
 
   h5 {
-    @apply mb-2 text-2xl font-bold;
+    @apply mb-2 text-2xl font-bold font-Baskervville;
   }
 }
 
@@ -47,3 +47,253 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+/* nav sticky */
+.navbar-sticky {
+  background: #ff0000;
+  opacity: 0.9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* back to top */
+.to-top-btn {
+  position: fixed;
+  z-index: 10;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0;
+  width: 52px;
+  height: 52px;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  background-color: #44434a;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.to-top-btn:hover {
+  background-color: #1d1d21;
+}
+
+.to-top-btn img {
+  margin-bottom: 0.2rem;
+  margin-left: 30%;
+  width: 20px;
+}
+
+.show {
+  opacity: 1;
+}
+/* .project:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease-in-out;
+  opacity: 0.8;
+} */
+/*
+typing effect*/
+
+/* Typewriter effect 1 */
+@keyframes typing {
+  0.0000%,
+  30% {
+    content: "";
+  }
+  1%,
+  29% {
+    content: "c";
+  }
+  2%,
+  28% {
+    content: "cr";
+  }
+  3%,
+  27% {
+    content: "crea";
+  }
+  4%,
+  26% {
+    content: "creat";
+  }
+  5%,
+  25% {
+    content: "creati";
+  }
+  6%,
+  24% {
+    content: "creativ";
+  }
+  7%,
+  23% {
+    content: "creativi";
+  }
+  8%,
+  22% {
+    content: "creativit";
+  }
+  9%,
+  21% {
+    content: "creativity";
+  }
+  10%,
+  20% {
+    content: "creativity ?";
+  }
+
+  /* play another statement */
+  35%,
+  65% {
+    content: "";
+  }
+  36%,
+  64% {
+    content: "c";
+  }
+  37%,
+  63% {
+    content: "co";
+  }
+  38%,
+  62% {
+    content: "com";
+  }
+  39%,
+  61% {
+    content: "comm";
+  }
+  40%,
+  60% {
+    content: "commi";
+  }
+  41%,
+  59% {
+    content: "commit";
+  }
+  42%,
+  58% {
+    content: "commitm";
+  }
+  43%,
+  57% {
+    content: "commitme";
+  }
+  44%,
+  56% {
+    content: "commitmen";
+  }
+  45%,
+  56% {
+    content: "commitment";
+  }
+  46%,
+  55% {
+    content: "commitment ?";
+  }
+
+  /* another statement */
+  70%,
+  94% {
+    content: "";
+  }
+  71%,
+  93% {
+    content: "p";
+  }
+  72%,
+  92% {
+    content: "pr";
+  }
+  73%,
+  91% {
+    content: "pre";
+  }
+  74%,
+  90% {
+    content: "prec";
+  }
+  75%,
+  89% {
+    content: "preci";
+  }
+  76%,
+  88% {
+    content: "precis";
+  }
+  77%,
+  87% {
+    content: "precisi";
+  }
+  78%,
+  86% {
+    content: "precisio";
+  }
+  79%,
+  85% {
+    content: "precision";
+  }
+  80%,
+  85% {
+    content: "precision ?";
+  }
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.typewriter {
+  --caret: currentcolor;
+}
+
+.typewriter::before {
+  content: "";
+  animation: typing 12s infinite;
+}
+
+.typewriter::after {
+  content: "";
+  border-right: 1px solid var(--caret);
+  animation: blink 0.5s linear infinite;
+}
+
+.typewriter.thick::after {
+  border-right: 1ch solid var(--caret);
+}
+
+.typewriter.nocaret::after {
+  border-right: 0;
+}
+
+@media (prefers-reduced-motion) {
+  .typewriter::after {
+    animation: none;
+  }
+
+  @keyframes sequencePopup {
+    0%,
+    100% {
+      content: "developer";
+    }
+    25% {
+      content: "writer";
+    }
+    50% {
+      content: "reader";
+    }
+    75% {
+      content: "human";
+    }
+  }
+
+  .typewriter::before {
+    content: "developer";
+    animation: sequencePopup 5s linear infinite;
+  }
+}
+
+/**/
