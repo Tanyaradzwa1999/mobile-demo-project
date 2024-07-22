@@ -478,64 +478,71 @@
                   >
                     <h5 class="my-4">Frameworks & DBs</h5>
                     <div
-                      class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 flex-wrap justify-start"
+                      class="flex flex-col items-start md:flex-row text-sm font-semibold text-ExperiencesBlue space-y-8"
                     >
-                      <div class="flex items-center space-x-2">
-                        <a
-                          href=""
-                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
-                          >Node.js</a
-                        >
-                      </div>
-                      <div class="flex items-center space-x-2">
-                        <div
-                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
-                        ></div>
-                        <a
-                          href=""
-                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
-                          >Express.js</a
-                        >
-                      </div>
-                      <div class="flex items-center space-x-2">
-                        <div
-                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
-                        ></div>
-                        <a
-                          href=""
-                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
-                          >Django</a
-                        >
-                      </div>
-                      <div class="flex items-center space-x-2">
-                        <div
-                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
-                        ></div>
-                        <a
-                          href=""
-                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
-                          >MySQL</a
-                        >
-                      </div>
-                      <div class="flex items-center space-x-2">
-                        <div
-                          class="w-2 h-2 bg-ExperiencesBlue rounded-full"
-                        ></div>
-                        <a
-                          href=""
-                          class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
-                          >Redis</a
-                        >
+                      <!-- flex box for skills and bullets -->
+                      <div
+                        class="text-sm font-semibold text-ExperiencesBlue flex space-x-4 justify-start flex-wrap"
+                      >
+                        <div class="flex items-center space-x-2">
+                          <a
+                            href=""
+                            class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                            >Node.js</a
+                          >
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <div
+                            class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                          ></div>
+                          <a
+                            href=""
+                            class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                            >Express.js</a
+                          >
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <div
+                            class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                          ></div>
+                          <a
+                            href=""
+                            class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                            >Django</a
+                          >
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <div
+                            class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                          ></div>
+                          <a
+                            href=""
+                            class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                            >MySQL</a
+                          >
+                        </div>
+                        <div class="flex items-center space-x-2">
+                          <div
+                            class="w-2 h-2 bg-ExperiencesBlue rounded-full"
+                          ></div>
+                          <a
+                            href=""
+                            class="hover:text-lg hover:border-b hover:border-ExperiencesBlue transition-all delay-100"
+                            >Redis</a
+                          >
+                        </div>
                       </div>
 
-                      <div class="flex justify-start md:items-center space-x-2">
+                      <div
+                        class="flex items-start justify-start md:items-center"
+                      >
                         <div
-                          class="md:w-2 md:h-2 bg-gray-700 rounded-full"
+                          class="hidden md:w-2 md:h-2 bg-gray-700 rounded-full"
                         ></div>
-                        <span class="text-gray-700 font-normal"
-                          >third-party APIs (Facebook, Twitter, YouTube, GitHub,
-                          etc.)</span
-                        >
+                        <div class="text-gray-700 font-normal">
+                          third-party APIs (Facebook, Twitter, YouTube, GitHub,
+                          etc.)
+                        </div>
                       </div>
                     </div>
                     <!-- css flex box -->
@@ -557,7 +564,7 @@
                   <!-- flex col for java heading -->
                   <div class="flex flex-col max-w-md justify-center">
                     <div
-                      class="text-sm font-normal text-gray-700 flex space-x-4 flex-wrap justify-start"
+                      class="text-sm font-normal text-gray-700 flex space-x-4 flex-wrap"
                     >
                       <div class="flex items-center space-x-2">
                         <a
@@ -985,23 +992,26 @@
       <h3>Checkout My Work</h3>
     </section>
 
-    <!-- flex col for projects -->
+    <!-- flex col for projects rows container-->
     <section
       class="flex flex-col justify-center section-container my-20 mx-auto"
       id="work"
     >
-      <div class="flex justify-between">
-        <div class="relative w-3/5 group">
+      <div
+        class="flex flex-col md:flex-row justify-between space-y-12 md:space-y-0"
+      >
+        <!-- flex for image and content -->
+        <div class="relative w-full md:w-3/5 group">
           <img
             src="images/phone.bmp"
             class="w-full rounded-2xl contrast-10 hue-rotate-20"
             alt=""
           />
           <div
-            class="3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-violet-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
+            class="w-full md:w-3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-violet-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
           ></div>
         </div>
-        <div class="flex flex-col max-w-md">
+        <div class="items-start flex flex-col max-w-md">
           <h5>Dog Walker Chatting App</h5>
           <p class="text-justify mt-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
@@ -1011,12 +1021,15 @@
             officiis, quas molestiae a, necessitatibus laborum veritatis non
             rerum eveniet similique! Voluptatem, magnam provident!
           </p>
-          <div class="flex items-center justify-between">
+          <div
+            class="flex flex-col md:flex-row items-start justify-between space-y-8 md:space-y-0 w-full mt-6"
+          >
             <div class="">
-              <p class="uppercase mt-6">Development Tools</p>
-              <ul class="list-disc">
-                <li class="ml-6">Tailwind</li>
-              </ul>
+              <p class="uppercase">Development Tools</p>
+              <div class="flex space-x-2 items-center ml-4 mt-4">
+                <div class="w-[5px] h-[5px] bg-gray-600"></div>
+                <p>Tailwind</p>
+              </div>
             </div>
             <div class="group">
               <a
@@ -1037,19 +1050,22 @@
     <section
       class="flex flex-col justify-center section-container my-20 mx-auto"
     >
-      <div class="flex justify-between">
-        <div class="relative w-3/5 group">
+      <div
+        class="flex flex-col md:flex-row justify-between space-y-12 md:space-y-0"
+      >
+        <!-- flex for image and content -->
+        <div class="relative w-full md:w-3/5 group">
           <img
             src="images/yavin_office.bmp"
             class="w-full rounded-2xl contrast-10 hue-rotate-20"
             alt=""
           />
           <div
-            class="3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-indigo-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
+            class="w-full md:w-3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-violet-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
           ></div>
         </div>
-        <div class="flex flex-col max-w-md">
-          <h5>Yavin Office Resposive Website</h5>
+        <div class="items-start flex flex-col max-w-md">
+          <h5>Yavin Office Landing Page</h5>
           <p class="text-justify mt-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
             illo temporibus quos sequi cupiditate aliquam rem voluptatem et
@@ -1058,12 +1074,15 @@
             officiis, quas molestiae a, necessitatibus laborum veritatis non
             rerum eveniet similique! Voluptatem, magnam provident!
           </p>
-          <div class="flex items-center justify-between">
+          <div
+            class="flex flex-col md:flex-row items-start justify-between space-y-8 md:space-y-0 w-full mt-6"
+          >
             <div class="">
-              <p class="uppercase mt-6">Development Tools</p>
-              <ul class="list-disc">
-                <li class="ml-6">Tailwind</li>
-              </ul>
+              <p class="uppercase">Development Tools</p>
+              <div class="flex space-x-2 items-center ml-4 mt-4">
+                <div class="w-[5px] h-[5px] bg-gray-600"></div>
+                <p>Tailwind</p>
+              </div>
             </div>
             <div class="group">
               <a
@@ -1075,6 +1094,7 @@
               </a>
             </div>
           </div>
+
           <!-- modal # -->
         </div>
       </div>
@@ -1085,20 +1105,23 @@
       class="flex flex-col justify-center section-container my-20 mx-auto"
       id="work"
     >
-      <div class="flex justify-between">
-        <div class="relative w-3/5 group">
+      <div
+        class="flex flex-col md:flex-row justify-between space-y-12 md:space-y-0"
+      >
+        <!-- flex for image and content -->
+        <div class="relative w-full md:w-3/5 group">
           <img
             src="images/clipboard.bmp"
             class="w-full rounded-2xl contrast-10 hue-rotate-20"
             alt=""
           />
           <div
-            class="3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-indigo-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
+            class="w-full md:w-3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-violet-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
           ></div>
         </div>
-        <div class="flex flex-col max-w-md">
-          <h5>Clipboard Website</h5>
-          <p class="text-justify mt-6">
+        <div class="items-start flex flex-col max-w-md">
+          <h5>Clipboard Landing Page</h5>
+          <p class="text-justify mt-6 text-md">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
             illo temporibus quos sequi cupiditate aliquam rem voluptatem et
             sunt, cum odio magnam nam? Libero vel at blanditiis quidem sequi
@@ -1106,13 +1129,15 @@
             officiis, quas molestiae a, necessitatibus laborum veritatis non
             rerum eveniet similique! Voluptatem, magnam provident!
           </p>
-          <p class="uppercase mt-6">Development Tools</p>
-          <div class="flex items-center justify-between">
+          <div
+            class="flex flex-col md:flex-row items-start justify-between space-y-8 md:space-y-0 w-full mt-6"
+          >
             <div class="">
-              <p class="uppercase mt-6">Development Tools</p>
-              <ul class="list-disc">
-                <li class="ml-6">Tailwind</li>
-              </ul>
+              <p class="uppercase">Development Tools</p>
+              <div class="flex space-x-2 items-center ml-4 mt-4">
+                <div class="w-[5px] h-[5px] bg-gray-600"></div>
+                <p>Tailwind</p>
+              </div>
             </div>
             <div class="group">
               <a
@@ -1124,28 +1149,31 @@
               </a>
             </div>
           </div>
+
           <!-- modal # -->
         </div>
       </div>
     </section>
-    <!-- ebook website project -->
 
-    <!-- blipboard project -->
-
-    <!-- phone project -->
     <section
       class="flex flex-col justify-center section-container my-20 mx-auto"
       id="work"
     >
-      <div class="flex justify-between">
-        <div class="relative w-3/5 group">
-          <img src="images/fylo.bmp" class="w-full rounded-2xl" alt="" />
+      <div
+        class="flex flex-col md:flex-row justify-between space-y-12 md:space-y-0"
+      >
+        <!-- flex for image and content -->
+        <div class="relative w-full md:w-3/5 group">
+          <img
+            src="images/fylo.bmp"
+            class="w-full rounded-2xl contrast-10 hue-rotate-20"
+            alt=""
+          />
           <div
-            class="3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-indigo-100/20 from-10% via-transparent via-10% to-transparent to-90%"
+            class="w-full md:w-3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-violet-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
           ></div>
         </div>
-
-        <div class="flex flex-col max-w-md">
+        <div class="items-start flex flex-col max-w-md">
           <h5>Fylo Website</h5>
           <p class="text-justify mt-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
@@ -1155,12 +1183,15 @@
             officiis, quas molestiae a, necessitatibus laborum veritatis non
             rerum eveniet similique! Voluptatem, magnam provident!
           </p>
-          <div class="flex items-center justify-between">
+          <div
+            class="flex flex-col md:flex-row items-start justify-between space-y-8 md:space-y-0 w-full mt-6"
+          >
             <div class="">
-              <p class="uppercase mt-6">Development Tools</p>
-              <ul class="list-disc">
-                <li class="ml-6">Tailwind</li>
-              </ul>
+              <p class="uppercase">Development Tools</p>
+              <div class="flex space-x-2 items-center ml-4 mt-4">
+                <div class="w-[5px] h-[5px] bg-gray-600"></div>
+                <p>Tailwind</p>
+              </div>
             </div>
             <div class="group">
               <a
@@ -1172,6 +1203,7 @@
               </a>
             </div>
           </div>
+
           <!-- modal # -->
         </div>
       </div>
@@ -1180,10 +1212,22 @@
       class="flex flex-col justify-center section-container my-20 mx-auto"
       id="work"
     >
-      <div class="flex justify-between">
-        <img src="images/ebook_website.bmp" class="w-3/5 rounded-2xl" alt="" />
-        <div class="flex flex-col max-w-md">
-          <h5>Ebook Website</h5>
+      <div
+        class="flex flex-col md:flex-row justify-between space-y-12 md:space-y-0"
+      >
+        <!-- flex for image and content -->
+        <div class="relative w-full md:w-3/5 group">
+          <img
+            src="images/ebook_website.bmp"
+            class="w-full rounded-2xl contrast-10 hue-rotate-20"
+            alt=""
+          />
+          <div
+            class="w-full md:w-3/5 rounded-2xl absolute top-0 bottom-0 right-0 left-0 bg-gradient-to-b from-violet-100/20 from-10% via-transparent via-10% to-indigo-100/20 to-90%"
+          ></div>
+        </div>
+        <div class="items-start flex flex-col max-w-md">
+          <h5>Bookmark Website</h5>
           <p class="text-justify mt-6">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi
             illo temporibus quos sequi cupiditate aliquam rem voluptatem et
@@ -1192,12 +1236,15 @@
             officiis, quas molestiae a, necessitatibus laborum veritatis non
             rerum eveniet similique! Voluptatem, magnam provident!
           </p>
-          <div class="flex items-center justify-between">
+          <div
+            class="flex flex-col md:flex-row items-start justify-between space-y-8 md:space-y-0 w-full mt-6"
+          >
             <div class="">
-              <p class="uppercase mt-6">Development Tools</p>
-              <ul class="list-disc">
-                <li class="ml-6">Tailwind</li>
-              </ul>
+              <p class="uppercase">Development Tools</p>
+              <div class="flex space-x-2 items-center ml-4 mt-4">
+                <div class="w-[5px] h-[5px] bg-gray-600"></div>
+                <p>Tailwind</p>
+              </div>
             </div>
             <div class="group">
               <a
@@ -1209,6 +1256,7 @@
               </a>
             </div>
           </div>
+
           <!-- modal # -->
         </div>
       </div>
@@ -1217,15 +1265,21 @@
     <div class="bg-stone-100 py-20" id="services">
       <section class="section-container mx-auto">
         <div class="flex justify-center">
-          <h3 aria-label="Hi! I'm a developer ">
-            Are you looking for &nbsp;<span class="typewriter"></span>
+          <h3 class="text-4xl" aria-label="Hi! I'm a developer ">
+            Are You Looking For &nbsp;<span class="typewriter"></span>
           </h3>
         </div>
 
-        <div class="flex justify-between my-20">
-          <div class="flex flex-col items-center space-y-4">
-            <h5 class="text-ExperiencesBlue">experience</h5>
-            <p class="text-slate-500 text-center max-w-xs">
+        <div
+          class="flex flex-col md:flex-row justify-between my-8 md:my-20 space-y-8 md:space-y-0"
+        >
+          <div class="flex flex-col items-start md:items-center space-y-4">
+            <h5 class="text-ExperiencesBlue md:text-2xl text-3xl">
+              Experience
+            </h5>
+            <p
+              class="md:text-slate-500 text-left md:text-center max-w-xl md:max-w-sm text-lg font-light leading-8"
+            >
               I have worked for digital agencies, well established companies as
               well as startups . I have experience working with clients and
               remote development teams (20+) across different time zones. With
@@ -1234,9 +1288,11 @@
               through safely.
             </p>
           </div>
-          <div class="flex flex-col items-center space-y-4">
-            <h5 class="text-ExperiencesBlue">process</h5>
-            <p class="text-slate-500 text-center max-w-xs">
+          <div class="flex flex-col items-start md:items-center space-y-4">
+            <h5 class="text-ExperiencesBlue md:text-2xl text-3xl">Process</h5>
+            <p
+              class="md:text-slate-500 text-left md:text-center max-w-xl md:max-w-sm text-lg font-light leading-8"
+            >
               My detailed, step-by-step process ensures no crucial information
               get overlooked unintentionally potentially failing your project.
               For each project, before I start coding, I go through a thorough
@@ -1245,9 +1301,13 @@
               project.
             </p>
           </div>
-          <div class="flex flex-col items-center space-y-4">
-            <h5 class="text-ExperiencesBlue">satisfaction</h5>
-            <p class="text-slate-500 text-center max-w-xs">
+          <div class="flex flex-col items-start md:items-center space-y-4">
+            <h5 class="text-ExperiencesBlue md:text-2xl text-3xl">
+              Satisfaction
+            </h5>
+            <p
+              class="md:text-slate-500 text-left md:text-center max-w-xl md:max-w-sm text-lg font-light leading-8"
+            >
               I progressively and automatically test the developed features to
               make sure the application behaves properly, and to catch any bugs
               early. Once-off projects often turn into long-term business
@@ -1456,41 +1516,47 @@
     <section class="section-container mb-20 mx-auto">
       <form
         action="submit"
-        class="flex-col space-y-4 p-10 mx-auto focus:outline-none shadow-xl shadow-slate-200 text-gray-400 max-w-2xl"
+        class="flex-col space-y-4 p-8 md:p-10 mx-auto focus:outline-none shadow-xl shadow-slate-200 text-gray-700 max-w-6xl md:max-w-2xl"
       >
-        <div class="flex space-x-4">
+        <div
+          class="flex flex-col md:flex-row space-y-6 space-x-0 md:space-y-0 md:space-x-4"
+        >
           <input
             type="text"
             placeholder="First Name"
-            class="w-1/2 px-4 py-2 focus:outline-none border-b"
+            class="w-full md:w-1/2 px-4 py-2 focus:outline-none border-b text-gray-700"
           />
           <input
             type="text"
             placeholder="Last Name"
-            class="w-1/2 px-4 py-2 focus:outline-none border-b"
+            class="w-full md:w-1/2 px-4 py-2 focus:outline-none border-b text-gray-700"
           />
         </div>
         <input
           type="text"
           placeholder="Work Email"
-          class="w-full px-4 py-2 focus:outline-none border-b"
+          class="w-full px-4 py-4 md:py-2 focus:outline-none border-b"
         />
-        <div class="flex space-x-4">
+        <div
+          class="flex flex-col md:flex-row space-y-6 space-x-0 md:space-y-0 md:space-x-4"
+        >
           <input
             type="text"
-            placeholder="First Name"
-            class="w-1/2 px-4 py-2 focus:outline-none border-b"
+            placeholder="Job Title"
+            class="w-full md:w-1/2 px-4 py-2 focus:outline-none border-b"
           />
           <input
             type="text"
-            placeholder="Last Name"
-            class="w-1/2 px-4 py-2 focus:outline-none border-b"
+            placeholder="Work Telephone"
+            class="w-full md:w-1/2 px-4 py-2 focus:outline-none border-b"
           />
         </div>
-        <div class="flex space-x-4">
+        <div
+          class="flex flex-col md:flex-row space-y-6 space-x-0 md:space-y-0 md:space-x-4"
+        >
           <select
             id="countries"
-            class="border-b block w-1/2 p-2.5 focus:outline-none"
+            class="border-b block w-full md:w-1/2 p-2.5 focus:outline-none"
           >
             <option selected>Select Desired Completion Time</option>
             <option value="US">Less than 1 Month</option>
@@ -1502,7 +1568,7 @@
 
           <select
             id="countries"
-            class="border-b block w-1/2 p-2.5 focus:outline-none"
+            class="border-b block w-full md:w-1/2 p-2.5 focus:outline-none"
           >
             <option selected>Selected Amount Budgeted for the Task</option>
             <option value="US">Less than $500</option>
@@ -1521,7 +1587,7 @@
           ></textarea>
         </flex>
         <button
-          class="w-1/2 bg-ExperiencesBlue px-4 py-2 flex space-x-4 items-center justify-center text-white"
+          class="w-full md:w-1/2 bg-ExperiencesBlue px-4 py-2 flex space-x-4 items-center justify-center text-white"
         >
           <p>SEND</p>
 
@@ -1550,7 +1616,7 @@
               <h5 class="font-Margarine text-softRed">C</h5>
               <h5 class="font-Margarine">oders</h5>
             </div>
-            <p class="text-white font-thin max-w-xs">
+            <p class="text-white font-light max-w-xs">
               Engineering the Future, One Line of Code at a Time with Innovation
               and Precision
             </p>

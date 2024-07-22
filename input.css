@@ -8,7 +8,7 @@
   }
 
   h5 {
-    @apply mb-2 text-2xl font-bold font-Baskervville;
+    @apply mb-2 md:text-2xl text-xl font-bold font-Baskervville;
   }
 }
 
@@ -235,43 +235,43 @@ typing effect*/
   }
   1%,
   29% {
-    content: "c";
+    content: "C";
   }
   2%,
   28% {
-    content: "cr";
+    content: "Cr";
   }
   3%,
   27% {
-    content: "crea";
+    content: "Crea";
   }
   4%,
   26% {
-    content: "creat";
+    content: "Creat";
   }
   5%,
   25% {
-    content: "creati";
+    content: "Creati";
   }
   6%,
   24% {
-    content: "creativ";
+    content: "Creativ";
   }
   7%,
   23% {
-    content: "creativi";
+    content: "Creativi";
   }
   8%,
   22% {
-    content: "creativit";
+    content: "Creativit";
   }
   9%,
   21% {
-    content: "creativity";
+    content: "Creativity";
   }
   10%,
   20% {
-    content: "creativity ?";
+    content: "Creativity ?";
   }
 
   /* play another statement */
@@ -281,47 +281,47 @@ typing effect*/
   }
   36%,
   64% {
-    content: "c";
+    content: "C";
   }
   37%,
   63% {
-    content: "co";
+    content: "Co";
   }
   38%,
   62% {
-    content: "com";
+    content: "Com";
   }
   39%,
   61% {
-    content: "comm";
+    content: "Comm";
   }
   40%,
   60% {
-    content: "commi";
+    content: "Commi";
   }
   41%,
   59% {
-    content: "commit";
+    content: "Commit";
   }
   42%,
   58% {
-    content: "commitm";
+    content: "Commitm";
   }
   43%,
   57% {
-    content: "commitme";
+    content: "Commitme";
   }
   44%,
   56% {
-    content: "commitmen";
+    content: "Commitmen";
   }
   45%,
   56% {
-    content: "commitment";
+    content: "Commitment";
   }
   46%,
   55% {
-    content: "commitment ?";
+    content: "Commitment ?";
   }
 
   /* another statement */
@@ -331,43 +331,43 @@ typing effect*/
   }
   71%,
   93% {
-    content: "p";
+    content: "P";
   }
   72%,
   92% {
-    content: "pr";
+    content: "Pr";
   }
   73%,
   91% {
-    content: "pre";
+    content: "Pre";
   }
   74%,
   90% {
-    content: "prec";
+    content: "Prec";
   }
   75%,
   89% {
-    content: "preci";
+    content: "Preci";
   }
   76%,
   88% {
-    content: "precis";
+    content: "Precis";
   }
   77%,
   87% {
-    content: "precisi";
+    content: "Precisi";
   }
   78%,
   86% {
-    content: "precisio";
+    content: "Precisio";
   }
   79%,
   85% {
-    content: "precision";
+    content: "Precision";
   }
   80%,
   85% {
-    content: "precision ?";
+    content: "Precision ?";
   }
 }
 
