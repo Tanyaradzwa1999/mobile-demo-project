@@ -23,6 +23,7 @@
 .button-container {
   @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
+
 .video-play-button {
   position: relative;
   display: block;
@@ -429,6 +430,37 @@ typing effect*/
     content: "developer";
     animation: sequencePopup 5s linear infinite;
   }
+}
+
+/* GENERAL ELEMENTS */
+.section {
+  //padding: 15rem 3rem;
+
+  transition: transform 1s, opacity 1s;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translateY(10rem);
+}
+
+.section__title {
+  max-width: 80rem;
+  margin: 0 auto 8rem auto;
+}
+
+.section__description {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.section__header {
+  font-size: 4rem;
+  line-height: 1.3;
+  font-weight: 500;
 }
 
 /**/

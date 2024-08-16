@@ -5,19 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/horse.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Margarine&display=swap"
       rel="stylesheet"
     />
-    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <title>My Portfolio | [Challenge Name Here]</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,12 +38,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- modal -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/js/bootstrap-modalmanager.min.js"
-      integrity="sha512-/HL24m2nmyI2+ccX+dSHphAHqLw60Oj5sK8jf59VWtFWZi9vx7jzoxbZmcBeeTeCUc7z1mTs3LfyXGuBU32t+w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-modal/2.2.6/css/bootstrap-modal-bs3patch.css"
@@ -62,18 +52,37 @@
     <!-- nav bar section -->
 
     <nav
-      class="navbar h-20 md:h-16 fixed w-full bg-opacity-100 md:bg-opacity-95 ease-in-out duration-500"
+      class="h-20 md:h-16 w-full md:bg-opacity-95 ease-in-out transition-all duration-500 z-50 nav-container"
     >
       <div
-        class="md:flex hidden justify-center space-x-10 font-light md:fixed top-0 md:top-6 md:left-1/2 md:right-1/2"
+        class="md:flex hidden justify-center bg-opacity-95 space-x-10 absolute font-light top-0 md:top-6 md:left-1/2 md:right-1/2 navbar ease-in-out transition-all duration-500"
       >
-        <a href="#about">About</a><a href="#tabs">Experience</a
-        ><a href="#myWork">Portfolio</a><a href="#services">Services</a
-        ><a href="">Testimonials</a><a href="#contact">Contact</a>
+        <div class="nav-item transition-all duration-50 opacity-100">
+          <a href="#about" class="nav-link">About</a>
+        </div>
+        <div class="nav-item transition-all duration-50 opacity-100">
+          <a href="#tabs" class="nav-link">Experience</a>
+        </div>
+
+        <div class="nav-item transition-all duration-50 opacity-100">
+          <a href="#myWork" class="nav-link">Portfolio</a>
+        </div>
+
+        <div class="nav-item transition-all duration-50 opacity-100">
+          <a class="" href="#services " class="nav-link">Services</a>
+        </div>
+        <div class="nav-item transition-all duration-50 opacity-100">
+          <a href="" class="nav-link">Testimonials</a>
+        </div>
+        <div class="nav-item transition-all duration-50 opacity-100">
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
       </div>
       <!-- Hamburger Button -->
     </nav>
-    <div class="border-b-[0.1px] top-20 md:top-16 fixed w-full"></div>
+    <div
+      class="border-b-[0.1px] top-20 md:top-16 w-full navbarBoarder ease-in-out transition-all duration-500"
+    ></div>
     <div class="fixed top-5 z-50 block md:hidden">
       <button
         id="menu-btn"
@@ -147,8 +156,9 @@
         />
       </div>
     </section>
+
     <div
-      class="bg-stone-100 relative md:absolute bottom-0 w-full py-8 px-8 md:px-0 md:flex md:justify-center md:items-center text-2xl space-x-10 text-slate-400 flex-wrap"
+      class="bg-stone-100 relative md:absolute bottom-0 w-full py-8 px-8 md:px-0 md:flex md:justify-center md:items-center text-2xl space-x-10 text-slate-400 flex-wrap hero"
     >
       <i class="fa-brands fa-apple"></i>
       <i class="fa-brands fa-docker"></i>
@@ -164,9 +174,10 @@
       <i class="fa-brands fa-linux"></i>
       <i class="fa-brands fa-superpowers"></i>
     </div>
+
     <!-- about section -->
     <section
-      class="section-container flex flex-col items-center space-y-4 my-20"
+      class="section section-container flex flex-col items-center space-y-4 my-20 border-w"
       id="about"
     >
       <h3 class="font-Baskervville">About</h3>
@@ -196,24 +207,26 @@
         cross-functional teams or diving deep into new technologies, I thrive on
         challenges and am committed to delivering high-quality solutions.
       </p>
-    </section>
-    <section
-      class="section-container flex flex-col items-center space-y-4 mb-10"
-      id="about"
-    >
-      <h3 class="font-Baskervville">What is web development ?</h3>
-      <p class="text-justify md:max-w-2xl max-w-sm leading-8 text-lg">
-        Web development is the process of creating and maintaining websites and
-        web applications that are accessible through the internet. It combines
-        coding, design, and problem-solving skills to build sites that are not
-        only functional but also user-friendly and visually appealing. There are
-        two main parts to web development: front-end development, which focuses
-        on what users see and interact with, and back-end development, which
-        handles the behind-the-scenes operations like servers, databases, and
-        application logic. This field is always evolving with new technologies
-        and trends, allowing developers to come up with innovative solutions
-        that meet the needs of both users and businesses.
-      </p>
+
+      <div
+        class="section section-container flex flex-col items-center space-y-4 my-10"
+        id="webdev"
+      >
+        <h3 class="font-Baskervville">What is web development ?</h3>
+        <p class="text-justify md:max-w-2xl max-w-sm leading-8 text-lg">
+          Web development is the process of creating and maintaining websites
+          and web applications that are accessible through the internet. It
+          combines coding, design, and problem-solving skills to build sites
+          that are not only functional but also user-friendly and visually
+          appealing. There are two main parts to web development: front-end
+          development, which focuses on what users see and interact with, and
+          back-end development, which handles the behind-the-scenes operations
+          like servers, databases, and application logic. This field is always
+          evolving with new technologies and trends, allowing developers to come
+          up with innovative solutions that meet the needs of both users and
+          businesses.
+        </p>
+      </div>
     </section>
 
     <div class="section section-container block md:hidden">
@@ -271,7 +284,7 @@
       <!-- skills mobile -->
     </div>
     <!-- profile tab -->
-    <div class="bg-stone-100">
+    <div class="section bg-stone-100">
       <section id="tabs" class="">
         <!-- Tabs/Panels Container -->
         <div class="container relative mx-auto my-6 mb-32 mt-12 px-6 py-12">
@@ -1008,19 +1021,18 @@
       </section>
     </div>
 
-    <!-- works heading -->
-    <section
-      class="flex flex-col items-center section-container mb-20 mx-auto"
-      id="myWork"
-    >
-      <h3>Checkout My Work</h3>
-    </section>
-
     <!-- flex col for projects rows container-->
     <section
-      class="flex flex-col justify-center section-container my-20 mx-auto"
+      class="section flex flex-col justify-center section-container my-20 mx-auto"
       id="work"
     >
+      <div
+        class="flex flex-col items-center section-container mb-20 mx-auto"
+        id="myWork"
+      >
+        <h3>Checkout My Work</h3>
+      </div>
+
       <div
         class="flex flex-col md:flex-row justify-between space-y-12 md:space-y-0"
       >
@@ -1286,7 +1298,7 @@
       </div>
     </section>
     <!-- typing effect section -->
-    <div class="bg-stone-100 py-20" id="services">
+    <div class="bg-stone-100 py-20 section" id="services">
       <section class="section-container mx-auto">
         <div class="flex justify-center">
           <h3 class="text-4xl" aria-label="Hi! I'm a developer ">
@@ -1345,18 +1357,16 @@
 
     <!-- faqs -->
     <!-- FAQ Heading -->
-    <section id="faq">
-      <div class="container mx-auto mt-20">
+
+    <!-- FAQ Accordion -->
+    <section class="section" id="faq-accordion">
+      <div class="mx-auto mt-20">
         <h2
           class="mb-6 text-3xl font-semibold text-center md:text-4xl font-Baskervville"
         >
           FAQs
         </h2>
       </div>
-    </section>
-
-    <!-- FAQ Accordion -->
-    <section id="faq-accordion ">
       <!-- Main Container -->
       <div class="container mx-auto px-6 mb-32 max-w-2xl">
         <!-- Accordion Container -->
@@ -1533,11 +1543,12 @@
         </div>
       </div>
     </section>
-    <section class="section-container mt-20">
-      <div class="flex justify-center"><h3>Get In Touch</h3></div>
-    </section>
+
     <!-- form for contact ---------->
-    <section class="section-container mb-20 mx-auto">
+    <section class="section-container mb-20 mx-auto section">
+      <div class="section-container mt-20">
+        <div class="flex justify-center"><h3>Get In Touch</h3></div>
+      </div>
       <form
         action="submit"
         class="flex-col space-y-4 p-8 md:p-10 mx-auto focus:outline-none shadow-xl shadow-slate-200 text-gray-700 max-w-6xl md:max-w-2xl"
